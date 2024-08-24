@@ -123,7 +123,7 @@
             const formattedTimestamp = `${year}${month}${day}${hours}${minutes}${seconds}`;
 
             // 将格式化后的时间戳附加到 URL 中
-            const url = `http://103.164.63.131:8888/${urlInput}?timestamp=${formattedTimestamp}`;
+            const url = `http://103.164.63.131:60000/${urlInput}?timestamp=${formattedTimestamp}`;
 
             fetch(url)
                 .then(response => response.text()) // 转换响应体为文本
